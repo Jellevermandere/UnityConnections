@@ -1,0 +1,15 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: JelleVer.PackageExample
+  name: JelleVer.PackageExample
+  href: api/JelleVer.PackageExample.html
+  commentId: N:JelleVer.PackageExample
+  fullName: JelleVer.PackageExample
+  nameWithType: JelleVer.PackageExample
+- uid: JelleVer.PackageExample.RuntimeExample
+  name: RuntimeExample
+  href: api/JelleVer.PackageExample.RuntimeExample.html
+  commentId: T:JelleVer.PackageExample.RuntimeExample
+  fullName: JelleVer.PackageExample.RuntimeExample
+  nameWithType: RuntimeExample

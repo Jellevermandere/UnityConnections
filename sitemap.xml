@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://jellevermandere.github.io/api/JelleVer.PackageExample.RuntimeExample.html</loc>
+    <lastmod>2022-11-01T09:27:19+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jellevermandere.github.io/api/JelleVer.PackageExample.html</loc>
+    <lastmod>2022-11-01T09:27:19+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jellevermandere.github.io/index.html</loc>
+    <lastmod>2022-11-01T09:27:19+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
