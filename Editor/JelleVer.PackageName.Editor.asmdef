@@ -1,0 +1,10 @@
+{
+    "name": "JelleVer.PackageExample.Editor",
+    "references": [
+      "JelleVer.PackageExample"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

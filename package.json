@@ -1,0 +1,25 @@
+{
+    "name": "be.jellever.package-example",
+    "version": "0.0.1",
+    "displayName": "Package Example",
+    "description": "This is an example package",
+    "dependencies": {},
+    "keywords": [
+        "keyword1",
+        "keyword2",
+        "keyword3"
+    ],
+    "author": {
+        "name": "Jelle",
+        "email": "jelle@jellever.be",
+        "url": "https://www.jellever.be"
+    },
+    "samples": [
+        {
+            "displayName": "Working Sample scenes",
+            "description": "Shows how everything works in practice",
+            "path": "Samples~/SampleProject"
+        }
+    ],
+    "documentationUrl": "https://jellevermandere.github.io/" 
+}
