@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Package Title | Package </title>
+    <title>Serial Connection | Package </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Package Title | Package ">
+    <meta name="title" content="Serial Connection | Package ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="resources/favicon.ico">
@@ -47,7 +47,7 @@
                 
                 <ul class="nav level1 navbar-nav">
                       <li>
-                          <a href="api/JelleVer.PackageExample.html" title="Scripting API">Scripting API</a>
+                          <a href="api/JelleVer.SerialConnection.html" title="Scripting API">Scripting API</a>
                       </li>
                 </ul>    </div>
           </div>
@@ -75,32 +75,20 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="package-title">Package Title</h1>
+<h1 id="serial-connection">Serial Connection</h1>
 
 <p>Short Description</p>
-<pre><code class="lang-cs"> namespace JelleVer.&quot;Packagename&quot;
+<pre><code class="lang-cs"> namespace JelleVer.SerialConnection
 </code></pre><h2 id="installation">Installation</h2>
 <p>This can be imported as a UnityPackage in any existing Unity project through the <a href="https://docs.unity3d.com/Manual/Packages.html">Package manager</a> with the Git url.</p>
 <h2 id="documentation">Documentation</h2>
 <p>Here is the full API <a href="https://jellevermandere.github.io/UnityPackageTemplate/">Documentation</a></p>
-<h2 id="template-changes">Template Changes</h2>
-<p>Because this is a templete, there are a number of things to change to make each package unique.</p>
+<h2 id="usage">Usage</h2>
 <ul>
-<li><code>package.json</code><ul>
-<li>Unique values for <code>name</code>, <code>version</code>, ect... </li>
-<li>The <code>documentationUrl</code> Should link to the Github Pages. (&quot;username&quot;.github.io/&quot;repo&quot;)</li>
+<li>Add the <code>SerialConnection</code> script to an object.</li>
+<li>Set the <code>IOPort</code>, <code>baudeRate</code> and <code>readTimeout</code></li>
+<li>Register a string function to work with the serial data</li>
 </ul>
-</li>
-<li><code>Runtime/</code> &amp; <code>Editor/</code><ul>
-<li>Change the asembly definition to match your package name</li>
-</ul>
-</li>
-</ul>
-<blockquote><p><span class="emoji" shortcode="warning">⚠️</span>
-If you are not Jelle, you will need to change a lot more stuff...</p>
-</blockquote>
-<h2 id="chapter">Chapter</h2>
-<h3 id="subchapter">SubChapter</h3>
 <h2 id="licensing">Licensing</h2>
 <p>The code in this project is licensed under MIT license.</p>
 </article>

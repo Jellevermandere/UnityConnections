@@ -24,11 +24,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/JelleVer.PackageExample.RuntimeExample.yml",
+      "source_relative_path": "api/JelleVer.SerialConnection.SerialConnection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JelleVer.PackageExample.RuntimeExample.html",
-          "hash": "AZFI3DYKJXzpe7z4T9BPLzBcvUPx0t5o++LKIWxN7cE="
+          "relative_path": "api/JelleVer.SerialConnection.SerialConnection.html",
+          "hash": "4yDZVMDdKeUDEQE9mP9KHArHySoo7rFgzq5hOZ4yz7U="
         }
       },
       "is_incremental": false,
@@ -36,11 +36,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/JelleVer.PackageExample.yml",
+      "source_relative_path": "api/JelleVer.SerialConnection.StringEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JelleVer.PackageExample.html",
-          "hash": "0PHn/00rAMDF/D6s3+51Qd6V8ko/mSGXdkajPLqH2DM="
+          "relative_path": "api/JelleVer.SerialConnection.StringEvent.html",
+          "hash": "k6pIGH4a1ZsZ/5jycq3Agw1Si6iebI/crSbatILLwAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JelleVer.SerialConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JelleVer.SerialConnection.html",
+          "hash": "LBrx7NqFe0X+KZ10/K/G22TPDRRvwSALM1zQatO90ic="
         }
       },
       "is_incremental": false,
@@ -52,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "9rDmACYzG4COZw2SKVglXgcbJ8VL2dzLxtpDXA/6c9s="
+          "hash": "zX4ZebmN/UVTE/Oud2+AQZcyXzvzdfi8COdYfnQwAMA="
         }
       },
       "is_incremental": false,
@@ -101,7 +113,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 3,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
