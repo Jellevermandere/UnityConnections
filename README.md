@@ -11,7 +11,7 @@ This can be imported as a UnityPackage in any existing Unity project through the
 
 ## Documentation
 
-Here is the full API [Documentation](https://jellevermandere.github.io/UnityPackageTemplate/)
+Here is the full API [Documentation](https://jellevermandere.github.io/UnitySerialConnection/)
 
 ## Usage
 
