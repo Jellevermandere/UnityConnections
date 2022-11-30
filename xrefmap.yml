@@ -97,12 +97,6 @@ references:
   commentId: F:Global.UDPServer.IP
   fullName: UDPServer.IP
   nameWithType: UDPServer.IP
-- uid: Global.UDPServer.lastReceivedUDPPacket
-  name: lastReceivedUDPPacket
-  href: api/Global.UDPServer.html#Global_UDPServer_lastReceivedUDPPacket
-  commentId: F:Global.UDPServer.lastReceivedUDPPacket
-  fullName: UDPServer.lastReceivedUDPPacket
-  nameWithType: UDPServer.lastReceivedUDPPacket
 - uid: Global.UDPServer.OnMessageReceived
   name: OnMessageReceived
   href: api/Global.UDPServer.html#Global_UDPServer_OnMessageReceived
@@ -115,6 +109,12 @@ references:
   commentId: F:Global.UDPServer.port
   fullName: UDPServer.port
   nameWithType: UDPServer.port
+- uid: Global.UDPServer.receivedString
+  name: receivedString
+  href: api/Global.UDPServer.html#Global_UDPServer_receivedString
+  commentId: F:Global.UDPServer.receivedString
+  fullName: UDPServer.receivedString
+  nameWithType: UDPServer.receivedString
 - uid: Global.UDPServer.Start
   name: Start()
   href: api/Global.UDPServer.html#Global_UDPServer_Start
