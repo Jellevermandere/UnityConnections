@@ -1,99 +1,220 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: JelleVer.SerialConnection
-  name: JelleVer.SerialConnection
-  href: api/JelleVer.SerialConnection.html
-  commentId: N:JelleVer.SerialConnection
-  fullName: JelleVer.SerialConnection
-  nameWithType: JelleVer.SerialConnection
-- uid: JelleVer.SerialConnection.SerialConnection
+- uid: Global
+  name: Global
+  href: api/Global.html
+  name.vb: ''
+  fullName: Global
+  fullName.vb: ''
+  nameWithType: Global
+  nameWithType.vb: ''
+- uid: Global.UDPClient
+  name: UDPClient
+  href: api/Global.UDPClient.html
+  commentId: T:Global.UDPClient
+  fullName: UDPClient
+  nameWithType: UDPClient
+- uid: Global.UDPClient.IP
+  name: IP
+  href: api/Global.UDPClient.html#Global_UDPClient_IP
+  commentId: F:Global.UDPClient.IP
+  fullName: UDPClient.IP
+  nameWithType: UDPClient.IP
+- uid: Global.UDPClient.port
+  name: port
+  href: api/Global.UDPClient.html#Global_UDPClient_port
+  commentId: F:Global.UDPClient.port
+  fullName: UDPClient.port
+  nameWithType: UDPClient.port
+- uid: Global.UDPClient.SendString(System.String)
+  name: SendString(String)
+  href: api/Global.UDPClient.html#Global_UDPClient_SendString_System_String_
+  commentId: M:Global.UDPClient.SendString(System.String)
+  fullName: UDPClient.SendString(System.String)
+  nameWithType: UDPClient.SendString(String)
+- uid: Global.UDPClient.SendString*
+  name: SendString
+  href: api/Global.UDPClient.html#Global_UDPClient_SendString_
+  commentId: Overload:Global.UDPClient.SendString
+  isSpec: "True"
+  fullName: UDPClient.SendString
+  nameWithType: UDPClient.SendString
+- uid: Global.UDPClient.SendTestMessage
+  name: SendTestMessage()
+  href: api/Global.UDPClient.html#Global_UDPClient_SendTestMessage
+  commentId: M:Global.UDPClient.SendTestMessage
+  fullName: UDPClient.SendTestMessage()
+  nameWithType: UDPClient.SendTestMessage()
+- uid: Global.UDPClient.SendTestMessage*
+  name: SendTestMessage
+  href: api/Global.UDPClient.html#Global_UDPClient_SendTestMessage_
+  commentId: Overload:Global.UDPClient.SendTestMessage
+  isSpec: "True"
+  fullName: UDPClient.SendTestMessage
+  nameWithType: UDPClient.SendTestMessage
+- uid: Global.UDPClient.Start
+  name: Start()
+  href: api/Global.UDPClient.html#Global_UDPClient_Start
+  commentId: M:Global.UDPClient.Start
+  fullName: UDPClient.Start()
+  nameWithType: UDPClient.Start()
+- uid: Global.UDPClient.Start*
+  name: Start
+  href: api/Global.UDPClient.html#Global_UDPClient_Start_
+  commentId: Overload:Global.UDPClient.Start
+  isSpec: "True"
+  fullName: UDPClient.Start
+  nameWithType: UDPClient.Start
+- uid: Global.UDPConnection
+  name: UDPConnection
+  href: api/Global.UDPConnection.html
+  commentId: T:Global.UDPConnection
+  fullName: UDPConnection
+  nameWithType: UDPConnection
+- uid: Global.UDPServer
+  name: UDPServer
+  href: api/Global.UDPServer.html
+  commentId: T:Global.UDPServer
+  fullName: UDPServer
+  nameWithType: UDPServer
+- uid: Global.UDPServer.getLatestUDPPacket
+  name: getLatestUDPPacket()
+  href: api/Global.UDPServer.html#Global_UDPServer_getLatestUDPPacket
+  commentId: M:Global.UDPServer.getLatestUDPPacket
+  fullName: UDPServer.getLatestUDPPacket()
+  nameWithType: UDPServer.getLatestUDPPacket()
+- uid: Global.UDPServer.getLatestUDPPacket*
+  name: getLatestUDPPacket
+  href: api/Global.UDPServer.html#Global_UDPServer_getLatestUDPPacket_
+  commentId: Overload:Global.UDPServer.getLatestUDPPacket
+  isSpec: "True"
+  fullName: UDPServer.getLatestUDPPacket
+  nameWithType: UDPServer.getLatestUDPPacket
+- uid: Global.UDPServer.IP
+  name: IP
+  href: api/Global.UDPServer.html#Global_UDPServer_IP
+  commentId: F:Global.UDPServer.IP
+  fullName: UDPServer.IP
+  nameWithType: UDPServer.IP
+- uid: Global.UDPServer.lastReceivedUDPPacket
+  name: lastReceivedUDPPacket
+  href: api/Global.UDPServer.html#Global_UDPServer_lastReceivedUDPPacket
+  commentId: F:Global.UDPServer.lastReceivedUDPPacket
+  fullName: UDPServer.lastReceivedUDPPacket
+  nameWithType: UDPServer.lastReceivedUDPPacket
+- uid: Global.UDPServer.port
+  name: port
+  href: api/Global.UDPServer.html#Global_UDPServer_port
+  commentId: F:Global.UDPServer.port
+  fullName: UDPServer.port
+  nameWithType: UDPServer.port
+- uid: Global.UDPServer.Start
+  name: Start()
+  href: api/Global.UDPServer.html#Global_UDPServer_Start
+  commentId: M:Global.UDPServer.Start
+  fullName: UDPServer.Start()
+  nameWithType: UDPServer.Start()
+- uid: Global.UDPServer.Start*
+  name: Start
+  href: api/Global.UDPServer.html#Global_UDPServer_Start_
+  commentId: Overload:Global.UDPServer.Start
+  isSpec: "True"
+  fullName: UDPServer.Start
+  nameWithType: UDPServer.Start
+- uid: JelleVer.ConnectionTools
+  name: JelleVer.ConnectionTools
+  href: api/JelleVer.ConnectionTools.html
+  commentId: N:JelleVer.ConnectionTools
+  fullName: JelleVer.ConnectionTools
+  nameWithType: JelleVer.ConnectionTools
+- uid: JelleVer.ConnectionTools.SerialConnection
   name: SerialConnection
-  href: api/JelleVer.SerialConnection.SerialConnection.html
-  commentId: T:JelleVer.SerialConnection.SerialConnection
-  fullName: JelleVer.SerialConnection.SerialConnection
+  href: api/JelleVer.ConnectionTools.SerialConnection.html
+  commentId: T:JelleVer.ConnectionTools.SerialConnection
+  fullName: JelleVer.ConnectionTools.SerialConnection
   nameWithType: SerialConnection
-- uid: JelleVer.SerialConnection.SerialConnection.activateAtStart
+- uid: JelleVer.ConnectionTools.SerialConnection.activateAtStart
   name: activateAtStart
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_activateAtStart
-  commentId: F:JelleVer.SerialConnection.SerialConnection.activateAtStart
-  fullName: JelleVer.SerialConnection.SerialConnection.activateAtStart
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_activateAtStart
+  commentId: F:JelleVer.ConnectionTools.SerialConnection.activateAtStart
+  fullName: JelleVer.ConnectionTools.SerialConnection.activateAtStart
   nameWithType: SerialConnection.activateAtStart
-- uid: JelleVer.SerialConnection.SerialConnection.ActivateSP
+- uid: JelleVer.ConnectionTools.SerialConnection.ActivateSP
   name: ActivateSP()
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_ActivateSP
-  commentId: M:JelleVer.SerialConnection.SerialConnection.ActivateSP
-  fullName: JelleVer.SerialConnection.SerialConnection.ActivateSP()
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_ActivateSP
+  commentId: M:JelleVer.ConnectionTools.SerialConnection.ActivateSP
+  fullName: JelleVer.ConnectionTools.SerialConnection.ActivateSP()
   nameWithType: SerialConnection.ActivateSP()
-- uid: JelleVer.SerialConnection.SerialConnection.ActivateSP*
+- uid: JelleVer.ConnectionTools.SerialConnection.ActivateSP*
   name: ActivateSP
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_ActivateSP_
-  commentId: Overload:JelleVer.SerialConnection.SerialConnection.ActivateSP
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_ActivateSP_
+  commentId: Overload:JelleVer.ConnectionTools.SerialConnection.ActivateSP
   isSpec: "True"
-  fullName: JelleVer.SerialConnection.SerialConnection.ActivateSP
+  fullName: JelleVer.ConnectionTools.SerialConnection.ActivateSP
   nameWithType: SerialConnection.ActivateSP
-- uid: JelleVer.SerialConnection.SerialConnection.baudeRate
+- uid: JelleVer.ConnectionTools.SerialConnection.baudeRate
   name: baudeRate
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_baudeRate
-  commentId: F:JelleVer.SerialConnection.SerialConnection.baudeRate
-  fullName: JelleVer.SerialConnection.SerialConnection.baudeRate
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_baudeRate
+  commentId: F:JelleVer.ConnectionTools.SerialConnection.baudeRate
+  fullName: JelleVer.ConnectionTools.SerialConnection.baudeRate
   nameWithType: SerialConnection.baudeRate
-- uid: JelleVer.SerialConnection.SerialConnection.IOPort
+- uid: JelleVer.ConnectionTools.SerialConnection.IOPort
   name: IOPort
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_IOPort
-  commentId: F:JelleVer.SerialConnection.SerialConnection.IOPort
-  fullName: JelleVer.SerialConnection.SerialConnection.IOPort
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_IOPort
+  commentId: F:JelleVer.ConnectionTools.SerialConnection.IOPort
+  fullName: JelleVer.ConnectionTools.SerialConnection.IOPort
   nameWithType: SerialConnection.IOPort
-- uid: JelleVer.SerialConnection.SerialConnection.logValue
+- uid: JelleVer.ConnectionTools.SerialConnection.logValue
   name: logValue
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_logValue
-  commentId: F:JelleVer.SerialConnection.SerialConnection.logValue
-  fullName: JelleVer.SerialConnection.SerialConnection.logValue
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_logValue
+  commentId: F:JelleVer.ConnectionTools.SerialConnection.logValue
+  fullName: JelleVer.ConnectionTools.SerialConnection.logValue
   nameWithType: SerialConnection.logValue
-- uid: JelleVer.SerialConnection.SerialConnection.readTimeout
+- uid: JelleVer.ConnectionTools.SerialConnection.readTimeout
   name: readTimeout
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_readTimeout
-  commentId: F:JelleVer.SerialConnection.SerialConnection.readTimeout
-  fullName: JelleVer.SerialConnection.SerialConnection.readTimeout
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_readTimeout
+  commentId: F:JelleVer.ConnectionTools.SerialConnection.readTimeout
+  fullName: JelleVer.ConnectionTools.SerialConnection.readTimeout
   nameWithType: SerialConnection.readTimeout
-- uid: JelleVer.SerialConnection.SerialConnection.recievedValue
+- uid: JelleVer.ConnectionTools.SerialConnection.recievedValue
   name: recievedValue
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_recievedValue
-  commentId: P:JelleVer.SerialConnection.SerialConnection.recievedValue
-  fullName: JelleVer.SerialConnection.SerialConnection.recievedValue
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_recievedValue
+  commentId: P:JelleVer.ConnectionTools.SerialConnection.recievedValue
+  fullName: JelleVer.ConnectionTools.SerialConnection.recievedValue
   nameWithType: SerialConnection.recievedValue
-- uid: JelleVer.SerialConnection.SerialConnection.recievedValue*
+- uid: JelleVer.ConnectionTools.SerialConnection.recievedValue*
   name: recievedValue
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_recievedValue_
-  commentId: Overload:JelleVer.SerialConnection.SerialConnection.recievedValue
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_recievedValue_
+  commentId: Overload:JelleVer.ConnectionTools.SerialConnection.recievedValue
   isSpec: "True"
-  fullName: JelleVer.SerialConnection.SerialConnection.recievedValue
+  fullName: JelleVer.ConnectionTools.SerialConnection.recievedValue
   nameWithType: SerialConnection.recievedValue
-- uid: JelleVer.SerialConnection.SerialConnection.SendBytes(System.Byte[])
+- uid: JelleVer.ConnectionTools.SerialConnection.SendBytes(System.Byte[])
   name: SendBytes(Byte[])
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_SendBytes_System_Byte___
-  commentId: M:JelleVer.SerialConnection.SerialConnection.SendBytes(System.Byte[])
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_SendBytes_System_Byte___
+  commentId: M:JelleVer.ConnectionTools.SerialConnection.SendBytes(System.Byte[])
   name.vb: SendBytes(Byte())
-  fullName: JelleVer.SerialConnection.SerialConnection.SendBytes(System.Byte[])
-  fullName.vb: JelleVer.SerialConnection.SerialConnection.SendBytes(System.Byte())
+  fullName: JelleVer.ConnectionTools.SerialConnection.SendBytes(System.Byte[])
+  fullName.vb: JelleVer.ConnectionTools.SerialConnection.SendBytes(System.Byte())
   nameWithType: SerialConnection.SendBytes(Byte[])
   nameWithType.vb: SerialConnection.SendBytes(Byte())
-- uid: JelleVer.SerialConnection.SerialConnection.SendBytes*
+- uid: JelleVer.ConnectionTools.SerialConnection.SendBytes*
   name: SendBytes
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_SendBytes_
-  commentId: Overload:JelleVer.SerialConnection.SerialConnection.SendBytes
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_SendBytes_
+  commentId: Overload:JelleVer.ConnectionTools.SerialConnection.SendBytes
   isSpec: "True"
-  fullName: JelleVer.SerialConnection.SerialConnection.SendBytes
+  fullName: JelleVer.ConnectionTools.SerialConnection.SendBytes
   nameWithType: SerialConnection.SendBytes
-- uid: JelleVer.SerialConnection.SerialConnection.sp
+- uid: JelleVer.ConnectionTools.SerialConnection.sp
   name: sp
-  href: api/JelleVer.SerialConnection.SerialConnection.html#JelleVer_SerialConnection_SerialConnection_sp
-  commentId: F:JelleVer.SerialConnection.SerialConnection.sp
-  fullName: JelleVer.SerialConnection.SerialConnection.sp
+  href: api/JelleVer.ConnectionTools.SerialConnection.html#JelleVer_ConnectionTools_SerialConnection_sp
+  commentId: F:JelleVer.ConnectionTools.SerialConnection.sp
+  fullName: JelleVer.ConnectionTools.SerialConnection.sp
   nameWithType: SerialConnection.sp
-- uid: JelleVer.SerialConnection.StringEvent
+- uid: JelleVer.ConnectionTools.StringEvent
   name: StringEvent
-  href: api/JelleVer.SerialConnection.StringEvent.html
-  commentId: T:JelleVer.SerialConnection.StringEvent
-  fullName: JelleVer.SerialConnection.StringEvent
+  href: api/JelleVer.ConnectionTools.StringEvent.html
+  commentId: T:JelleVer.ConnectionTools.StringEvent
+  fullName: JelleVer.ConnectionTools.StringEvent
   nameWithType: StringEvent

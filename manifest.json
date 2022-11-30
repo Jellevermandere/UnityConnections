@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "D:/a/UnitySerialConnection/UnitySerialConnection/Documentation~/DocFx",
+  "source_base_path": "D:/a/UnityConnections/UnityConnections/Documentation~/DocFx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -24,11 +24,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/JelleVer.SerialConnection.SerialConnection.yml",
+      "source_relative_path": "api/Global.UDPClient.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JelleVer.SerialConnection.SerialConnection.html",
-          "hash": "4yDZVMDdKeUDEQE9mP9KHArHySoo7rFgzq5hOZ4yz7U="
+          "relative_path": "api/Global.UDPClient.html",
+          "hash": "aATBIL7g/MYn/IymXAelFY5VOWMXLFr5j7GJUAqaDus="
         }
       },
       "is_incremental": false,
@@ -36,11 +36,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/JelleVer.SerialConnection.StringEvent.yml",
+      "source_relative_path": "api/Global.UDPConnection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JelleVer.SerialConnection.StringEvent.html",
-          "hash": "k6pIGH4a1ZsZ/5jycq3Agw1Si6iebI/crSbatILLwAM="
+          "relative_path": "api/Global.UDPConnection.html",
+          "hash": "Dstu1UKtawEfw7iPA+aQLuKVP3E1X3p3InYdcrhFzls="
         }
       },
       "is_incremental": false,
@@ -48,11 +48,59 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/JelleVer.SerialConnection.yml",
+      "source_relative_path": "api/Global.UDPServer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JelleVer.SerialConnection.html",
-          "hash": "LBrx7NqFe0X+KZ10/K/G22TPDRRvwSALM1zQatO90ic="
+          "relative_path": "api/Global.UDPServer.html",
+          "hash": "GvM+fNVxDy18a4Vq4r0jOAiF0oEROCX2ltky4YAaAvM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "QWwyMysGNtLYrCVrlFhg9YK3aXbrskj1b2br2Ifxn6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JelleVer.ConnectionTools.SerialConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JelleVer.ConnectionTools.SerialConnection.html",
+          "hash": "t7UlNed9QGio5QeQMD0S8Yv1Dy0Wae6IpRaXpgPxgFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JelleVer.ConnectionTools.StringEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JelleVer.ConnectionTools.StringEvent.html",
+          "hash": "W6RMKh9AXBQ3FcDwbnW2mQaqt12k7gh8xcLIWYjyInc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JelleVer.ConnectionTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JelleVer.ConnectionTools.html",
+          "hash": "lbmYdsKy7wWj+OmDzYgluLy11lFWqn/fjBGS+DCq7zU="
         }
       },
       "is_incremental": false,
@@ -64,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ZodzBA4xAOyJTVZIt1LAUAhrAXliV3j3NMDCw5BiR/4="
+          "hash": "Vo4WKW81BxY6/zlt6kJ4ZdJo4Gm8VwiPifNVkjCXZfs="
         }
       },
       "is_incremental": false,
@@ -113,7 +161,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

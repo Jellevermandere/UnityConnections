@@ -1,22 +1,42 @@
 {
-  "api/JelleVer.SerialConnection.html": {
-    "href": "api/JelleVer.SerialConnection.html",
-    "title": "Namespace JelleVer.SerialConnection | Package",
-    "keywords": "Namespace JelleVer.SerialConnection Classes SerialConnection StringEvent"
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace Global | Connection Tools",
+    "keywords": "Namespace Global Classes UDPClient UDPConnection UDPServer"
   },
-  "api/JelleVer.SerialConnection.SerialConnection.html": {
-    "href": "api/JelleVer.SerialConnection.SerialConnection.html",
-    "title": "Class SerialConnection | Package",
-    "keywords": "Class SerialConnection Inheritance Object SerialConnection Namespace : JelleVer.SerialConnection Assembly : cs.temp.dll.dll Syntax public class SerialConnection : MonoBehaviour Fields activateAtStart Declaration public bool activateAtStart Field Value Type Description Boolean baudeRate Declaration public int baudeRate Field Value Type Description Int32 IOPort Declaration public string IOPort Field Value Type Description String logValue Declaration public bool logValue Field Value Type Description Boolean readTimeout Declaration public int readTimeout Field Value Type Description Int32 sp Declaration public SerialPort sp Field Value Type Description SerialPort Properties recievedValue Declaration public string recievedValue { get; } Property Value Type Description String Methods ActivateSP() Activates the serial port with the set value in the object Declaration public void ActivateSP() SendBytes(Byte[]) Sends a message to the activate serial port Declaration public void SendBytes(byte[] value) Parameters Type Name Description Byte [] value the value to send"
+  "api/Global.UDPClient.html": {
+    "href": "api/Global.UDPClient.html",
+    "title": "Class UDPClient | Connection Tools",
+    "keywords": "Class UDPClient Inheritance Object UDPClient Namespace : Global Assembly : cs.temp.dll.dll Syntax public class UDPClient : MonoBehaviour Fields IP Declaration public string IP Field Value Type Description String port Declaration public int port Field Value Type Description Int32 Methods SendString(String) Declaration public void SendString(string message) Parameters Type Name Description String message SendTestMessage() Declaration public void SendTestMessage() Start() Declaration public void Start()"
   },
-  "api/JelleVer.SerialConnection.StringEvent.html": {
-    "href": "api/JelleVer.SerialConnection.StringEvent.html",
-    "title": "Class StringEvent | Package",
-    "keywords": "Class StringEvent Inheritance Object StringEvent Namespace : JelleVer.SerialConnection Assembly : cs.temp.dll.dll Syntax [Serializable] public class StringEvent : UnityEvent<string>"
+  "api/Global.UDPConnection.html": {
+    "href": "api/Global.UDPConnection.html",
+    "title": "Class UDPConnection | Connection Tools",
+    "keywords": "Class UDPConnection Inheritance Object UDPConnection Namespace : Global Assembly : cs.temp.dll.dll Syntax public class UDPConnection : MonoBehaviour"
+  },
+  "api/Global.UDPServer.html": {
+    "href": "api/Global.UDPServer.html",
+    "title": "Class UDPServer | Connection Tools",
+    "keywords": "Class UDPServer Inheritance Object UDPServer Namespace : Global Assembly : cs.temp.dll.dll Syntax public class UDPServer : MonoBehaviour Fields IP Declaration public string IP Field Value Type Description String lastReceivedUDPPacket Declaration public string lastReceivedUDPPacket Field Value Type Description String port Declaration public int port Field Value Type Description Int32 Methods getLatestUDPPacket() Declaration public string getLatestUDPPacket() Returns Type Description String Start() Declaration public void Start()"
+  },
+  "api/JelleVer.ConnectionTools.html": {
+    "href": "api/JelleVer.ConnectionTools.html",
+    "title": "Namespace JelleVer.ConnectionTools | Connection Tools",
+    "keywords": "Namespace JelleVer.ConnectionTools Classes SerialConnection StringEvent"
+  },
+  "api/JelleVer.ConnectionTools.SerialConnection.html": {
+    "href": "api/JelleVer.ConnectionTools.SerialConnection.html",
+    "title": "Class SerialConnection | Connection Tools",
+    "keywords": "Class SerialConnection Inheritance Object SerialConnection Namespace : JelleVer.ConnectionTools Assembly : cs.temp.dll.dll Syntax public class SerialConnection : MonoBehaviour Fields activateAtStart Declaration public bool activateAtStart Field Value Type Description Boolean baudeRate Declaration public int baudeRate Field Value Type Description Int32 IOPort Declaration public string IOPort Field Value Type Description String logValue Declaration public bool logValue Field Value Type Description Boolean readTimeout Declaration public int readTimeout Field Value Type Description Int32 sp Declaration public SerialPort sp Field Value Type Description SerialPort Properties recievedValue Declaration public string recievedValue { get; } Property Value Type Description String Methods ActivateSP() Activates the serial port with the set value in the object Declaration public void ActivateSP() SendBytes(Byte[]) Sends a message to the activate serial port Declaration public void SendBytes(byte[] value) Parameters Type Name Description Byte [] value the value to send"
+  },
+  "api/JelleVer.ConnectionTools.StringEvent.html": {
+    "href": "api/JelleVer.ConnectionTools.StringEvent.html",
+    "title": "Class StringEvent | Connection Tools",
+    "keywords": "Class StringEvent Inheritance Object StringEvent Namespace : JelleVer.ConnectionTools Assembly : cs.temp.dll.dll Syntax [Serializable] public class StringEvent : UnityEvent<string>"
   },
   "index.html": {
     "href": "index.html",
-    "title": "Serial Connection | Package",
-    "keywords": "Serial Connection Short Description namespace JelleVer.SerialConnection Installation This can be imported as a UnityPackage in any existing Unity project through the Package manager with the Git url. Documentation Here is the full API Documentation Usage Add the SerialConnection script to an object. Set the IOPort , baudeRate and readTimeout Register a string function to work with the serial data Licensing The code in this project is licensed under MIT license."
+    "title": "Serial Connection | Connection Tools",
+    "keywords": "Serial Connection Short Description namespace JelleVer.ConnectionTools Installation This can be imported as a UnityPackage in any existing Unity project through the Package manager with the Git url. Documentation Here is the full API Documentation Usage Add the SerialConnection script to an object. Set the IOPort , baudeRate and readTimeout Register a string function to work with the serial data Licensing The code in this project is licensed under MIT license."
   }
 }
