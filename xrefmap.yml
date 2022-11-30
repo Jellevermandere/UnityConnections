@@ -103,6 +103,12 @@ references:
   commentId: F:Global.UDPServer.lastReceivedUDPPacket
   fullName: UDPServer.lastReceivedUDPPacket
   nameWithType: UDPServer.lastReceivedUDPPacket
+- uid: Global.UDPServer.OnMessageReceived
+  name: OnMessageReceived
+  href: api/Global.UDPServer.html#Global_UDPServer_OnMessageReceived
+  commentId: F:Global.UDPServer.OnMessageReceived
+  fullName: UDPServer.OnMessageReceived
+  nameWithType: UDPServer.OnMessageReceived
 - uid: Global.UDPServer.port
   name: port
   href: api/Global.UDPServer.html#Global_UDPServer_port
@@ -122,6 +128,12 @@ references:
   isSpec: "True"
   fullName: UDPServer.Start
   nameWithType: UDPServer.Start
+- uid: Global.UDPServer.StringEvent
+  name: UDPServer.StringEvent
+  href: api/Global.UDPServer.StringEvent.html
+  commentId: T:Global.UDPServer.StringEvent
+  fullName: UDPServer.StringEvent
+  nameWithType: UDPServer.StringEvent
 - uid: JelleVer.ConnectionTools
   name: JelleVer.ConnectionTools
   href: api/JelleVer.ConnectionTools.html

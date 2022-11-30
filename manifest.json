@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UDPClient.html",
-          "hash": "aATBIL7g/MYn/IymXAelFY5VOWMXLFr5j7GJUAqaDus="
+          "hash": "9r7Ij4S+/lRuomfRn45hfIz+YWjKi2IXPe1GfsJDsCY="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UDPConnection.html",
-          "hash": "Dstu1UKtawEfw7iPA+aQLuKVP3E1X3p3InYdcrhFzls="
+          "hash": "BlgNWyhmYWkE3x+H1IN5fzDX0PwGsxGtvwUm8VRs6Us="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UDPServer.StringEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UDPServer.StringEvent.html",
+          "hash": "1sZyKcRCAk0Msgct9L+FmOwjxKohs0aCT1gHMmnpp8Y="
         }
       },
       "is_incremental": false,
@@ -52,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UDPServer.html",
-          "hash": "GvM+fNVxDy18a4Vq4r0jOAiF0oEROCX2ltky4YAaAvM="
+          "hash": "ImcPgJhXFgs7CB2vEjSlJn9VdZMhnSwZ4mIMvmj8NLU="
         }
       },
       "is_incremental": false,
@@ -64,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "QWwyMysGNtLYrCVrlFhg9YK3aXbrskj1b2br2Ifxn6k="
+          "hash": "7yCXyD2JsxBc0nmn+UtJ8BMGHzVrFZLyIdrpwOudp9g="
         }
       },
       "is_incremental": false,
@@ -76,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JelleVer.ConnectionTools.SerialConnection.html",
-          "hash": "t7UlNed9QGio5QeQMD0S8Yv1Dy0Wae6IpRaXpgPxgFM="
+          "hash": "fro/3UYwtzXll12ljrAIyOOReZagS2BxOrsLmpKQYrY="
         }
       },
       "is_incremental": false,
@@ -88,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JelleVer.ConnectionTools.StringEvent.html",
-          "hash": "W6RMKh9AXBQ3FcDwbnW2mQaqt12k7gh8xcLIWYjyInc="
+          "hash": "cdYr+kafTERx0uQB7Z0BoqwL8ihgZJ782dQ2lq0GwIA="
         }
       },
       "is_incremental": false,
@@ -100,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JelleVer.ConnectionTools.html",
-          "hash": "lbmYdsKy7wWj+OmDzYgluLy11lFWqn/fjBGS+DCq7zU="
+          "hash": "4q1PuxxCqbYibMUa2rycCsRgf+rKIwkbPDZIIgC3hYw="
         }
       },
       "is_incremental": false,
@@ -161,7 +173,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 7,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

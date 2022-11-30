@@ -2,7 +2,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Connection Tools",
-    "keywords": "Namespace Global Classes UDPClient UDPConnection UDPServer"
+    "keywords": "Namespace Global Classes UDPClient UDPConnection UDPServer UDPServer.StringEvent"
   },
   "api/Global.UDPClient.html": {
     "href": "api/Global.UDPClient.html",
@@ -17,7 +17,12 @@
   "api/Global.UDPServer.html": {
     "href": "api/Global.UDPServer.html",
     "title": "Class UDPServer | Connection Tools",
-    "keywords": "Class UDPServer Inheritance Object UDPServer Namespace : Global Assembly : cs.temp.dll.dll Syntax public class UDPServer : MonoBehaviour Fields IP Declaration public string IP Field Value Type Description String lastReceivedUDPPacket Declaration public string lastReceivedUDPPacket Field Value Type Description String port Declaration public int port Field Value Type Description Int32 Methods getLatestUDPPacket() Declaration public string getLatestUDPPacket() Returns Type Description String Start() Declaration public void Start()"
+    "keywords": "Class UDPServer Inheritance Object UDPServer Namespace : Global Assembly : cs.temp.dll.dll Syntax public class UDPServer : MonoBehaviour Fields IP Declaration public string IP Field Value Type Description String lastReceivedUDPPacket Declaration public string lastReceivedUDPPacket Field Value Type Description String OnMessageReceived Declaration public UDPServer.StringEvent OnMessageReceived Field Value Type Description UDPServer.StringEvent port Declaration public int port Field Value Type Description Int32 Methods getLatestUDPPacket() Declaration public string getLatestUDPPacket() Returns Type Description String Start() Declaration public void Start()"
+  },
+  "api/Global.UDPServer.StringEvent.html": {
+    "href": "api/Global.UDPServer.StringEvent.html",
+    "title": "Class UDPServer.StringEvent | Connection Tools",
+    "keywords": "Class UDPServer.StringEvent Inheritance Object UDPServer.StringEvent Namespace : Global Assembly : cs.temp.dll.dll Syntax [Serializable] public class StringEvent : UnityEvent<string>"
   },
   "api/JelleVer.ConnectionTools.html": {
     "href": "api/JelleVer.ConnectionTools.html",
