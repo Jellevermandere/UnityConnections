@@ -85,7 +85,7 @@ public class UDPServer : MonoBehaviour
     // cleans up the rest
     public string getLatestUDPPacket()
     {
-        return lastReceivedUDPPacket;
+        return receivedString;
     }
 
     void OnDisable()
