@@ -8,7 +8,7 @@ using UnityEngine.Events;
 // tutorial I learned this from: https://playground.arduino.cc/Main/MPU-6050/#measurements //
 // arduino script at the bottom //
 
-namespace JelleVer.SerialConnection
+namespace JelleVer.ConnectionTools
 {
     [System.Serializable]
     public class StringEvent : UnityEvent<string> { }

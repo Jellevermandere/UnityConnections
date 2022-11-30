@@ -1,8 +1,8 @@
 {
-  "name": "be.jellever.serialconnection",
+  "name": "be.jellever.connectiontools",
   "version": "0.0.1",
-  "displayName": "Serial Connection",
-  "description": "Tools to connect spi devices to unity and exchange data\nNamespace: JelleVer.SerialConnection",
+  "displayName": "Connection Tools",
+  "description": "tools to connect unity to a variety of external services and devices \nNamespace: JelleVer.ConnectionTools",
   "keywords": [
     "spi",
     "arduino",
@@ -20,5 +20,5 @@
       "path": "Samples~/SampleProject"
     }
   ],
-  "documentationUrl": "https://jellevermandere.github.io/unityserialconnection"
+  "documentationUrl": "https://jellevermandere.github.io/unityconnections"
 }
