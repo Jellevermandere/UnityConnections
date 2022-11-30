@@ -18,7 +18,7 @@ public class UDPServer : MonoBehaviour
     public int port = 8081; // define > init
 
     // infos
-    public string lastReceivedUDPPacket = "";
+    public string receivedString = "";
 
     public StringEvent OnMessageReceived = new StringEvent();
 
@@ -26,6 +26,8 @@ public class UDPServer : MonoBehaviour
     Thread receiveThread;
     // udpclient object
     UdpClient client;
+
+    bool valueReceived = false;
 
     // start from unity3d
     public void Start()
@@ -35,6 +37,15 @@ public class UDPServer : MonoBehaviour
             new ThreadStart(ReceiveData));
         receiveThread.IsBackground = true;
         receiveThread.Start();
+    }
+
+    private void Update()
+    {
+        if (valueReceived)
+        {
+            OnMessageReceived.Invoke(receivedString);
+            valueReceived = false;
+        }
     }
 
 
@@ -59,8 +70,8 @@ public class UDPServer : MonoBehaviour
                 string text = Encoding.UTF8.GetString(data);
 
                 // latest UDPpacket
-                lastReceivedUDPPacket = text;
-                OnMessageReceived.Invoke(text);
+                receivedString = text;
+                valueReceived = true;
                 Debug.Log("Message received: \n" + text);
             }
             catch (Exception err)
