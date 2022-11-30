@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
 using System;
 using System.Text;
@@ -9,12 +10,17 @@ using System.Threading;
 
 public class UDPServer : MonoBehaviour
 {
+    [System.Serializable]
+    public class StringEvent : UnityEvent<string> { }
+
     // public
     public string IP = "127.0.0.1";
     public int port = 8081; // define > init
 
     // infos
     public string lastReceivedUDPPacket = "";
+
+    public StringEvent OnMessageReceived = new StringEvent();
 
     // receiving Thread
     Thread receiveThread;
@@ -54,6 +60,7 @@ public class UDPServer : MonoBehaviour
 
                 // latest UDPpacket
                 lastReceivedUDPPacket = text;
+                OnMessageReceived.Invoke(text);
                 Debug.Log("Message received: \n" + text);
             }
             catch (Exception err)
